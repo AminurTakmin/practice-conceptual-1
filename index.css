@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav bar */
+
+.menu-container{
+    background-color: rgb(56, 54, 54);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logopic{
+    width: 120px;
+}
+
+.menus{
+    display: flex;
+}
+
+.home{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 15px;
+}
+
+.home:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+
+/* section-1 banner */
+
+.banner-photo{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh;
+    /* border: 10px solid black; */
+    color: white;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,black,rgb(44, 40, 40));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.btitle{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.bdescrip{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+
+/* section-2 about us*/
+
+.abimg{
+    width: 400px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.abtitle{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+{
+    padding: 2px;
+}
+
+.abh{
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.abp{
+    margin-bottom: 5px;
+}
+
+.btnmar{
+    margin-top: 20px;
+}
+
+
+
+/* section 3 our services */
+.box{
+    width: 250px;
+    height: 350px;
+    box-shadow: 4px 4px 15px blueviolet ;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin-bottom: 50px;
+    
+    opacity: 0.7;
+    border-radius: 20px;
+}
+
+.service-img{
+    width: 50px;
+}
+
+.service-btn{
+    background-color: blueviolet;
+    margin-top: 10px;
+}
+
+.service-title{
+    padding: 10px;
+}
+
+.service-para{
+    padding: 5px;
+    text-align:center;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;  
+}
+
+.sec-bg{
+    color: white;
+    background-image: url("./images/background.png"), linear-gradient(45deg, black, rgb(203, 45, 45));
+}
+
+/* footer work */
+.footer-container{ 
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.ft-bg{
+    background-image: url("./images/background.png"), linear-gradient(80deg, black,rgb(53, 48, 48));
+    color: white;
+    text-align: center;
+    padding: 70px;
+    
+}
+
+.footer-para{
+    width: 200px;
+    height: 100px;
+    color: white;
+    /* border: 2px solid white; */
+    text-align: center;
+}
+
+.footer-icon{
+    width: 200px;
+}
+
+.footer-items{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.footer-box{
+    color: white;
+    width: 180px;
+    height: 280px;
+    text-align: center;
+    /* border: 5px solid wheat; */
+    margin-right: 20px;
+    
+    
+
+}
+
+.footer-items a{
+    color: white;
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+.footer-title{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
